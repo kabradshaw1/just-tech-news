@@ -4,23 +4,14 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kabradshaw1/just-tech-news.git"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kabradshaw1/just-tech-news/issues"
-  },
-  "homepage": "https://github.com/kabradshaw1/just-tech-news#readme",
   "dependencies": {
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "mysql2": "^2.3.3",
-    "sequelizer": "^1.1.4"
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
   }
 }
