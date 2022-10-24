@@ -2,7 +2,7 @@
 const Post = require('./Post');
 const User = require('./User');
 const Vote = require('./Vote');
-const Comment = require('./Comment')
+const Comment = require('./Comment');
 
 // create associations
 User.hasMany(Post, {
@@ -58,4 +58,3 @@ Post.hasMany(Comment, {
 });
 
 module.exports = { User, Post, Vote, Comment };
-
