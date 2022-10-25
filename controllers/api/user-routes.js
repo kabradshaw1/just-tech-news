@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { User, Post, Comment, Vote } = require('../../models');
+const { User, Post, Vote } = require('../../models');
 
 // get all users
 router.get('/', (req, res) => {
@@ -73,6 +73,7 @@ router.post('/', (req, res) => {
       console.log(err);
       res.status(500).json(err);
     });
+  })
 });
 
 router.post('/login', (req, res) => {
