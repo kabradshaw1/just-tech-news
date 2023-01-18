@@ -12,3 +12,6 @@ This project was an exercise with UNC coding bootcamp.  It provided detailed ins
 * login to MySQL and run source db/schema.sql in the MySQL command line
 * use npm run seeds in the regular command line
 * navigate to localhost:3001 in the browser
+
+## Deployed Site
+https://still-ocean-01779.herokuapp.com/
